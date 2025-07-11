@@ -1,8 +1,8 @@
-# SplitBuddy
+# Splitzy
 
-Welcome to SplitBuddy! This is a modern C++ application designed to help you split expenses and keep track of who owes what. Inspired by the classic Splitwise concept, this project is a ground-up C++ rewrite, offering a simple command-line interface for managing group expenses.
+Welcome to Splitzy! This is a modern C++ application designed to help you split expenses and keep track of who owes what. Inspired by the classic Splitwise concept, this project is a ground-up C++ rewrite, offering a simple command-line interface for managing group expenses.
 
-## What Can SplitBuddy Do?
+## What Can Splitzy Do?
 - **Add shared expenses** with flexible split options: equal, exact, or percentage
 - **Track balances** between any number of users
 - **Settle up** debts between friends
@@ -28,33 +28,33 @@ Welcome to SplitBuddy! This is a modern C++ application designed to help you spl
    ```
 2. Compile the program:
    ```sh
-   g++ -std=c++17 -o splitbuddy Main.cpp
+   g++ -std=c++17 -o splitzy Main.cpp
    ```
    Or, if you use clang++:
    ```sh
-   clang++ -std=c++17 -o splitbuddy Main.cpp
+   clang++ -std=c++17 -o splitzy Main.cpp
    ```
    On Windows with MSVC:
    ```sh
-   cl Main.cpp /std:c++17 /Fe:splitbuddy.exe
+   cl Main.cpp /std:c++17 /Fe:splitzy.exe
    ```
 
 ### Run It
 - On Linux/macOS:
   ```sh
-  ./splitbuddy
+  ./splitzy
   ```
 - On Windows:
   ```sh
-  splitbuddy.exe
+  splitzy.exe
   ```
 
 ## How to Use
-When you start SplitBuddy, you'll see a menu. Just follow the prompts to add expenses, check balances, or settle up. You can add new users on the fly—just type a new name when prompted.
+When you start Splitzy, you'll see a menu. Just follow the prompts to add expenses, check balances, or settle up. You can add new users on the fly—just type a new name when prompted.
 
 **Example:**
 ```
-=== Splitwise ===
+=== Splitzy ===
 1. Add expense
 2. Show my balance
 3. Settle expense with person
@@ -81,4 +81,4 @@ Ideas for improvement:
 
 ---
 
-SplitBuddy is a fun way to learn C++ and manage group expenses. Enjoy splitting! 
+Splitzy is a fun way to learn C++ and manage group expenses. Enjoy splitting! 
